@@ -10,7 +10,7 @@ using ShiftLoggerAPI.Models;
 
 namespace ShiftLoggerAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/shiftlogger")]
     [ApiController]
     public class ShiftsController : ControllerBase
     {

@@ -14,3 +14,4 @@ namespace ShiftLoggerAPI.Data
         }
     }
 }
+    

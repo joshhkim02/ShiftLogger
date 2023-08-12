@@ -11,7 +11,7 @@ using System.ComponentModel.DataAnnotations;
 HostApplicationBuilder builder = Host.CreateApplicationBuilder();
 
 // Tell the container what classes you want to use in DI.
-builder.Services.AddHttpClient(); // not sure on this one since helpers will contain httpclient calls but is also a singleton
+builder.Services.AddHttpClient();
 builder.Services.AddSingleton<Menu>();
 builder.Services.AddSingleton<Validate>();
 builder.Services.AddSingleton<UserInput>();
